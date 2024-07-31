@@ -164,7 +164,7 @@
     <section id="video de solución">
         <h2>VIDEO DE SOLUCIÓN</h2>
         <div class="video-container">
-            <iframe src="https://youtu.be/cCmXLi9YmUU" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe src="https://youtu.be/cCmXLi9YmUU?si=9rvM45v4_itADhQ4" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
     </section>
 
