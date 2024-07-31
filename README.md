@@ -1,6 +1,5 @@
 # Proyecto-Matriz-LED-controlada-con-joystick
 
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -104,6 +103,18 @@
         .galery > div:hover {
             flex: 5;
         }
+        /* Estilos para el contenedor de video */
+        .video-container {
+            display: flex;
+            justify-content: center; /* Centra el video horizontalmente */
+            align-items: center;     /* Centra el video verticalmente (opcional) */
+            padding: 20px 0;
+        }
+        .video-container iframe {
+            border: none;
+            width: 80%;   /* Ajusta el ancho del iframe a un porcentaje del contenedor */
+            height: 450px; /* Ajusta la altura del iframe a un valor fijo */
+        }
     </style>
 </head>
 <body>
@@ -117,16 +128,15 @@
     <nav>
         <div class="Menu">
             <ul>
-            <li><a href="">Página Principal</a></li>
-            <li><a href="">Conceptos Nuevos</a></li>
-            <li><a href="">Procedimiento</a></li>
-            <li><a href="">Materiales</a></li>
-           
-        </ul>   
+                <li><a href="#">Página Principal</a></li>
+                <li><a href="#">Conceptos Nuevos</a></li>
+                <li><a href="#">Procedimiento</a></li>
+                <li><a href="#">Materiales</a></li>
+            </ul>   
         </div>
     </nav>
 
-    <section id="descripcion">
+    <section id="introducción">
         <h2>INTRODUCCIÓN</h2>
         <p>En este trabajo se busca hacer funcionar una matriz led, en la cual se evidencie un mensaje o una figura, para esto se realizó un circuito en el cual se hizo uso de cables macho/ hembra, un arduino y una matriz led. Se precensiaron varios conceptos, entre ellos, VCC, GND, CS, DIN Y CLK. </p>
     </section>
@@ -134,26 +144,38 @@
     <section id="funcionamiento">
         <h2>FUNCIONAMIENTO</h2>
         <p>Primeramente, se realizaron las conecciones entre la matriz led y el arduino, primero el GND de la matriz al GND del arduino, el DIN de la matriz al pin 12 del arduino, el CS de la matriz al pin 10 y el CLK de la matriz al pin 11 del arduino.</p>
-<p>Posteriormente se integró el código que le diera la orden a la matriz led de escribir un "TE AMO".
+        <p>Posteriormente se integró el código que le diera la orden a la matriz led de escribir un "TE AMO".</p>
     </section>
 
-    <section id="impacto">
-        <h2></h2>
+    <section id="materiales">
+        <h2>MATERIALES</h2>
+        <p> - </p>
+    </section>
+
+    <section id="paso a paso">
+        <h2>PASO A PASO</h2>
         <p></p>
     </section>
 
-    <section id="contacto">
-        <h2></h2>
+    <section id="que se aprendimos">
+        <h2>QUE SE APRENDIO</h2>
         <p></p>
+    </section>
+
+    <section id="video de solución">
+        <h2>VIDEO DE SOLUCIÓN</h2>
+        <div class="video-container">
+            <iframe src="https://youtu.be/cCmXLi9YmUU" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
     </section>
 
     <!-- Nueva sección de galería de imágenes -->
     <section class="galery">
-        <div style="background-image: url('https://ideogram.ai/assets/image/list/response/pEfXHfeZQzKx_UU6RyDqRg');"></div>
-        <div style="background-image: url('https://ideogram.ai/assets/image/list/response/JejUxRTLQsOp6VpD6rOOiQ');"></div>
-        <div style="background-image: url('https://ideogram.ai/assets/image/list/response/hk4b1SxsRmaVC43tHJKaUQ');"></div>
-        <div style="background-image: url('https://ideogram.ai/assets/image/list/response/NRqhMQL8RwGVISAUbabqXw');"></div>
-        <div style="background-image: url('https://ideogram.ai/assets/image/list/response/ny6BjJAeSLSiGAlIDmZHow');"></div>
+        <div style="background-image: url('');"></div>
+        <div style="background-image: url('');"></div>
+        <div style="background-image: url('');"></div>
+        <div style="background-image: url('');"></div>
+        <div style="background-image: url('');"></div>
     </section>
 
     <footer>
