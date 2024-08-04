@@ -1,4 +1,3 @@
-# Proyecto-Matriz-LED-controlada-con-joystick
 
 <html lang="es">
 <head>
@@ -163,8 +162,20 @@
 
     <section id="video de solución">
         <h2>VIDEO DE SOLUCIÓN</h2>
-        <div class="video-container">
-            <iframe src="https://vm.tiktok.com/ZMr4FjGXk/" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+     
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video de TikTok</title>
+</head>
+<body>
+    <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@santiagovibes17/video/7399336734716103941" data-video-id="7399336734716103941" style="max-width: 605px;min-width: 325px;" >
+        <section> </section>
+    </blockquote> 
+    <script async src="https://www.tiktok.com/embed.js"></script>
+</body>
+<script async src="//www.instagram.com/embed.js"></script>
+
         </div>
     </section>
 
@@ -182,3 +193,4 @@
     </footer>
 </body>
 </html>
+
